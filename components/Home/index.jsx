@@ -13,29 +13,31 @@ import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 
 function Home() {
   return (
-    <div className="w-full">
-      <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <HeroSection1 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection1 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection1 />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection1 />
-        </SwiperSlide>
-      </Swiper>
+    <div className="w-full px-6 md:px-8">
+      <div className="w-full max-w-[1290px] h-full  m-auto ">
+        <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <HeroSection1 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HeroSection1 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HeroSection1 />
+          </SwiperSlide>
+          <SwiperSlide>
+            <HeroSection1 />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 }

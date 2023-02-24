@@ -14,7 +14,7 @@ function Header() {
 
   return (
     <div className="w-full h-[90px]">
-      <div className="w-full max-w-[1290px] m-auto h-full flex justify-between items-center px-2 md:px-6">
+      <div className="w-full max-w-[1290px] m-auto h-full flex justify-between items-center px-6 md:px-4">
         {/* =======> logo  */}
         <div className="w-[170px] h-[65px] relative">
           <Image

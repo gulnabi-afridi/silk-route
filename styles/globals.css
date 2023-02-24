@@ -54,6 +54,7 @@ html {
   background-size: cover;
   top: 88% !important;
   left: 80px !important;
+  cursor: pointer;
 }
 .swiper-pagination{
   display: flex !important;

@@ -31,7 +31,7 @@ function Header() {
               <Link
                 key={index}
                 href="#"
-                className="text-white-main text-[22px] font-normal font-sans"
+                className="text-white-main text-[20px] font-normal font-sans"
               >
                 {nav.name}
               </Link>

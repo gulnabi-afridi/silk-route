@@ -13,15 +13,20 @@ function ThinkingOfStarting() {
         <div className="w-[80%] grid gap-8 grid-cols-2 grid-rows-2 py-8">
           {/* ======> one box */}
           <div className="col-span-1 row-span-1 flex justify-center items-center">
-            <p className="text-[20px] text-white-main font-sans font-normal">
-              Silk Route is here to help. We’re confident in saying we’re one of
-              the best residency programs in Europe, and here’s why. We create
-              companies tailored to each individual in our care–businesses that
-              establish residency in the European Union and ensure long term
-              success. But the genius of our business model is that we make this
-              process a luxury experience for you (full details available on our
-              services page).
-            </p>
+            <div className="text-[20px] text-white-main font-sans font-normal">
+              <span className="text-main-brand">
+                Silk Route is here to help.
+              </span>{" "}
+              We’re confident in saying we’re one of the best residency programs
+              in Europe, and here’s why. We create companies tailored to each
+              individual in our care–businesses that establish residency in the
+              European Union and ensure long term success. But the genius of our
+              business model is that we make this process a luxury experience
+              for you{" "}
+              <span className="text-main-brand">
+                (full details available on our services page).
+              </span>
+            </div>
           </div>
           {/* ========> 2nd box */}
           <div className="col-span-1 row-span-1 flex justify-center items-center">
